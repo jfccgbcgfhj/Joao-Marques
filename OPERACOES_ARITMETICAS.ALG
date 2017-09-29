@@ -1,5 +1,5 @@
 Algoritmo "Operacoes_aritmeticas"
-// Autor: Fernando Oliveira
+// Autor: Jo√£o Marques
 // Data:28/09/2017
 Var
 
@@ -9,33 +9,33 @@ Var
 Inicio
 X := VERDADEIRO
 FLAG <- X
-ENQUANTO FLAG FA«A
+ENQUANTO FLAG FA√áA
    X := VERDADEIRO
    MUDACOR("Amarelo","FRENTE")
    limpatela
    Escreval("*** Menu ***")
-   Escreval("1 - AdiÁ„o")
-   Escreval("2 - SubtraÁ„o")
-   Escreval("3 - MultiplicaÁ„o")
-   Escreval("4 - Divis„o ")
-   Escreva ("Qual o primeiro n˙mero?")
+   Escreval("1 - Adi√ß√£o")
+   Escreval("2 - Subtra√ß√£o")
+   Escreval("3 - Multiplica√ß√£o")
+   Escreval("4 - Divis√£o ")
+   Escreva ("Qual o primeiro n√∫mero?")
    Leia (N1)
-   Escreva ("Qual o segundo n˙mero?")
+   Escreva ("Qual o segundo n√∫mero?")
    Leia(N2)
-   Escreva("Digite a opÁ„o:")
+   Escreva("Digite a op√ß√£o:")
    Leia(opcao)
    Escolha opcao
    Caso 1
-      ESCREVAL("O resultado È", N1 + N2)
+      ESCREVAL("O resultado √©", N1 + N2)
    Caso 2
-      ESCREVAL("O resultado È", N1 - N2)
+      ESCREVAL("O resultado √©", N1 - N2)
    Caso 3
-      ESCREVAL("O resultado È", N1 * N2)
+      ESCREVAL("O resultado √©", N1 * N2)
    Caso 4
-      ESCREVAL("O resultado È", N1 / N2)
+      ESCREVAL("O resultado √©", N1 / N2)
       FLAG := FALSO
    OUTROCASO
-      Escreval("OpÁ„o inv·lida")
+      Escreval("Op√ß√£o inv√°lida")
    Fimescolha
    
    Escreva("tecle <enter>")
